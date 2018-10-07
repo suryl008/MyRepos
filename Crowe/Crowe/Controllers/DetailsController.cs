@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Collections.Generic;
+using System.Web.Http;
 
 namespace Crowe.Controllers
 {
@@ -9,6 +10,11 @@ namespace Crowe.Controllers
         public string GetStatusMessage()
         {
             return "Hello World";
+        }
+
+        public List<string> GetDbEntity()
+        {
+            return new List<string> { "lets do it..." };
         }
     }
 }
