@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Tests.Controllers
 {
     [TestClass]
-    class DetailsControllerTests
+    public class DetailsControllerTests
     {
         private DetailsController controller;
 
@@ -22,7 +22,7 @@ namespace Tests.Controllers
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual("Hello World1", controller.GetStatusMessage());
+            Assert.AreEqual("Hello World", controller.GetStatusMessage());
         }
     }
 }

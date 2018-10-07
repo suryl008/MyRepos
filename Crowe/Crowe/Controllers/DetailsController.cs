@@ -10,11 +10,6 @@ namespace Crowe.Controllers
         public string GetStatusMessage()
         {
             return "Hello World";
-        }
-
-        public List<string> GetDbEntity()
-        {
-            return new List<string> { "lets do it..." };
-        }
+        }        
     }
 }
