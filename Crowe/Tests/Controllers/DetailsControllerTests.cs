@@ -20,7 +20,7 @@ namespace Tests.Controllers
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void Call_Heartbeat_Endpoint_Succeed()
         {
             Assert.AreEqual("Hello World", controller.GetStatusMessage());
         }
